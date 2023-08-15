@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TS DIGITIZING</title>
+    <link rel="stylesheet" href="site.css">
+    <style>
+        /* Additional CSS Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+        }
+
+        .logo img {
+            max-width: 100%;
+            height: auto;
+            margin-right: -1rem; 
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #f5f5f5;
+            text-align: center;
+            padding: 4rem 0;
+        }
+
+        .hero h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-style: italic;
+            color: #666;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Services Section */
+        .services {
+            background-color: #fff;
+            padding: 4rem 0;
+        }
+
+        .service-cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .service-card {
+            flex-basis: calc(33.33% - 2rem);
+            margin: 1rem;
+            padding: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        /* About Section */
+        .about {
+            background-color: #f5f5f5;
+            text-align: center;
+            padding: 4rem 0;
+        }
+
+        /* Contact Section */
+        .contact {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 4rem 0;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label,
+        input,
+        textarea,
+        button {
+            display: block;
+            width: 100%;
+            margin-bottom: 1rem;
+            border: none;
+            padding: 0.5rem;
+        }
+
+        button {
+            background-color: #f5f5f5;
+            color: #333;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        button:hover {
+            background-color: #333;
+            color: #f5f5f5;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #666;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        @media screen and (max-width: 768px) {
+            header {
+                text-align: center;
+                flex-direction: column; /* Stack items vertically */
+                align-items: center; /* Center items horizontally */
+            }
+
+            .logo img {
+                max-width: 80%; /* Adjust this value as needed */
+                height: auto;
+                margin-bottom: 1rem; /* Add spacing between logo and heading */
+            }
+
+            h1 {
+                font-size: 1.5rem; /* Adjust this value as needed */
+                margin: 0; /* Remove top margin to save space */
+                
+                white-space: normal; /* Allow line breaks within the heading */
+                text-align: left; /* Prevent line break within the heading */
+            }
+
+            .header-line-break {
+                display: block; /* Start on a new line */
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            h1 {
+                font-size: 1.2rem; /* Adjust this value as needed */
+                white-space: normal; /* Allow line breaks within the heading */
+                text-align: center; /* Center the text */
+            }
+        }
+        .header-lines {
+    text-align: left;
+    width: 100%; /* Force full width */
+}
+
+.header-title {
+    font-size: 1.5rem; /* Adjust this value as needed */
+    margin: 0; /* Remove top margin to save space */
+    white-space: normal; /* Allow line breaks within the heading */
+    display: inline-block; /* Keep heading on the left */
+}
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="WhatsApp_Image_2023-07-19_at_03.14.13-removebg-preview.png" alt="Your Digitizing Company Logo">
+            </div>
+            <div class="header-lines">
+                <h1 class="header-title">TS Digitizing &</h1>
+                <h1>&nbsp;Vector Art</h1>
+            </div>
+            
+            <!-- <h1>TS DIGITIZING & VECTOR ART</h1> -->
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Experience Impeccable Embroidery Results Through Our Expert Digitizing Services</h2>
+            <p><em>Welcome to Your Digitizing Company, where creativity meets craftsmanship! We take pride in transforming
+                    your design concepts into stunning embroidered masterpieces...</em></p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <center><h1>Our Services</h1></center>
+            <br>
+            <div class="service-cards">
+                <!-- Card 1: Embroidery Digitizing -->
+                <div class="service-card">
+                    <img src="pic 3.JPG" alt="Service 1">
+                    <h3>Embroidery Digitizing</h3>
+                    <p>This Design is digitized for some of our Clients that love Parrots.</p>
+                </div>
+                <div class="service-card">
+                    <img src="pic 2.JPG" alt="Service 1">
+                    <h3>Embroidery Digitizing</h3>
+                    <p>A Digitized logo for one of our firend Company.</p>
+                </div>
+                <div class="service-card">
+                    <img src="pic_1-removebg-preview.png" alt="Service 1">
+                    <h3>Embroidery Digitizing</h3>
+                    <p>This Design Digitized on PXF Format, for a valuable client</p>
+                </div>
+    
+                <!-- Card 2: Vector Art Conversion -->
+                <div class="service-card">
+                    <img src="pic 1 a .PNG" alt="Service 2">
+                    <h3>Raster To Clean</h3>
+                    <p>Get Transform your raster images into clean and scalable vector graphics. As shown in the upper image!</p>
+                </div>
+                <div class="service-card">
+                    <img src="pic 2 a.PNG" alt="Service 2">
+                    <h3>Vector Art Conversion</h3>
+                    <p>Demonstrating A Lion Vector, That show our skill on Vectoring the Images.</p>
+                </div>
+                <div class="service-card">
+                    <img src="pic 3a.PNG" alt="Service 2">
+                    <h3>POP ART</h3>
+                    <p>Demonstrating A Beautiful Girl'S Pop Art,for a valuable customer.</p>
+                </div>
+    
+            
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <p>TS Digitizing Company is a team of skilled professionals dedicated to delivering top-quality digitizing services to our clients. With years of experience in the industry, we ensure precision and excellence in every design we digitize.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="contact_form_handler.php" method="post">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Your Digitizing Company. All rights reserved.</p>
+            <p>Email us at: digitizingts@gmail.com</p>
+        </div>
+    </footer>
+</body>
+
+</html>
